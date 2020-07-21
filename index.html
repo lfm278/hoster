@@ -1,4 +1,4 @@
- <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 
 <html>
 
@@ -10,11 +10,7 @@
         <meta charset="utf-8">
 
          <style>
-         border-left-style:groove  
-border-right-style:groove
-border-top-style:groove   
-border-bottom-style:groove
-border-style:groove
+         
          
           body {
             font-size: 16px;
@@ -34,7 +30,7 @@ border-style:groove
         }
             
             body { 
-                background-color: rgb(129, 117, 148);
+                background-color: rgb(227, 218, 240);
             }   
            p {
             color: rgb(23, 23, 22);
@@ -42,12 +38,39 @@ border-style:groove
              text-align: center;
         } 
         
-        
-        
+         #official-info {
+            background: rgb(209, 174, 209);
+            width: 85%;
+            height: 180px;
+            border: 2px dashed rgb(161, 161, 161);
+         } 
+         
+         #officialseries {
+            background: rgb(209, 174, 209);
+             width: 85%;
+            height: 270px;
+            border: 2px dashed rgb(161, 161, 161);
+         } 
+         
+         #official-infopeliculas {
+            background: rgb(209, 174, 209);
+            border: 2px dashed rgb(161, 161, 161);
+            
+         } 
+         
+         #container {
+            width: 600px;
+            margin: auto;
+            border: 1px solid rgb(145, 0, 0);
+            border-top: 10px solid purple;
+            padding: 15px;
+        }
+         
         </style>
     </head>
 
     <body>
+    <div id="container">
         <h1> Mis recomendaciones</h1>
         
         <p> Aqui pondre listas de recomendaciones mias.
@@ -65,7 +88,7 @@ border-style:groove
         <h3 id="animadas"> Peliculas animadas</h3>
         <p> Peliculas animadas que mas recomiendo. </p>
         
-        <table>
+        <div id="official-info"><table>
             <thead>
                 <tr>
                     <th>Pelicula</th>
@@ -97,6 +120,7 @@ border-style:groove
                 </tr>
             </tbody>
         </table>
+        </div>
         
         <ol> 
             <li> Wall-E</li> <br>
@@ -114,7 +138,7 @@ Luego de pasar años limpiando la Tierra desierta, el robot Wall-E conoce a EVA 
         
                 <h3 id="peliculas" > Peliculas </h3>
                 <p> Peliculas que mas recomiendo
-          <table>
+          <div id="official-infopeliculas"><table>
             <thead>
                 <tr>
                     <th>Pelicula</th>
@@ -163,6 +187,7 @@ Luego de pasar años limpiando la Tierra desierta, el robot Wall-E conoce a EVA 
                
             </tbody>
         </table>
+        </div>
          <ol> 
          <li>La vida es bella </li> 
          Un hombre construye una elaborada fantasía para proteger a su hijo en un campo de concentración nazi
@@ -195,7 +220,7 @@ Luego de pasar años limpiando la Tierra desierta, el robot Wall-E conoce a EVA 
                 
         
                
-          <table>
+          <div id="officialseries"><table>
             <thead>
                 <tr>
                     <th>Serie</th>
@@ -234,7 +259,7 @@ Luego de pasar años limpiando la Tierra desierta, el robot Wall-E conoce a EVA 
                  
             </tbody>
         </table>
-        
+        </div>
         <ol>
 
          <li>Lo que vi </li> <br>
@@ -254,6 +279,7 @@ Luego de pasar años limpiando la Tierra desierta, el robot Wall-E conoce a EVA 
 
 
          </ol>
+         </div>
     </body>
 
 </html>
